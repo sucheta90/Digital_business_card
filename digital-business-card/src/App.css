@@ -40,22 +40,30 @@
   box-sizing: border-box;
 }
 .profile-picture{
-  width: 245px;
-  border-top-right-radius: 10px;
+  width: 100%;
+  height: auto;
+  border-top-right-radius: 8px;
   border-top-left-radius: 8px;
+  background-color: white;
+  margin: 0 auto;
+  
   
 }
 body{
   background-color: #3F3F4F;
-  
+  overflow-x: hidden;
 }
 .main--container{
   width: 250px;
-  margin: 30px auto;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20%;
+  /* margin-top: 50px; */
+  /* margin-top: 10%; */
   text-align: center;
   background-color: #1A1919;
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
+  border-radius: 10px;
   border: 2px solid white;
   
 }
@@ -88,22 +96,23 @@ body{
 }
 p{
   font-weight: 100;
-  word-spacing: 1px;
+  word-spacing: 0.5px;
   text-align: left;
   margin-left: 10px;
   margin-right: auto;
-  font-size: 14px;
+  font-size: 13px;
+  
 }
-.button{
+/* .button{
   display: flex;
   justify-content: center;
   
-}
+} */
 .email-button, .linkedin-button{
   margin-right: 10px;
   margin-left: 10px;
-
-  width: 90px;
+  position: relative;
+  width: 40%;
 
 }
 .email-button > img, .linkedin-button > img{
@@ -118,10 +127,14 @@ p{
   display: flex;
   justify-content: space-between;
   background-color: #FBF2F2 ;
+  align-self: center;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 span{
   width: 20px;
   background-color: #FBF2F2;
   margin: 0 auto;
+  margin-top: 5px;
   
 }
