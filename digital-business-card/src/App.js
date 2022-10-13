@@ -1,4 +1,4 @@
-import Main from '././Digital-business-card-React/Main';
+import Main from './components/Main';
 
 import './App.css';
 
