@@ -36,13 +36,10 @@ body{
   overflow-x: hidden;
 }
 .main--container{
+  margin: auto;
+  margin-top: 40px;
   width: 250px;
   height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20%;
-  /* margin-top: 50px; */
-  /* margin-top: 10%; */
   text-align: center;
   background-color: #1A1919;
   border-radius: 10px;
