@@ -3,7 +3,11 @@ export default function Nav() {
   return (
     <div className="nav_element">
       <div>
-        <img src="/Sucheta.jpg" className="profile-picture" alt="potrait" />
+        <img
+          src="/images/Sucheta.jpg"
+          className="profile-picture"
+          alt="potrait"
+        />
       </div>
 
       <h4 className="subject-name">Sucheta Mukherjee</h4>
